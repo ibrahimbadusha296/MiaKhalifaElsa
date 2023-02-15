@@ -193,12 +193,11 @@ async def next_page(bot, query):
                 ]
                 for file in files
         ]
-    btn.insert(0, 
+    btn.insert(0,
         [
-            InlineKeyboardButton(f' ♀️ How to Download ♀️ ', 'https://t.me/PrimePornZ')
+            InlineKeyboardButton(text="⚡HOW TO DOWNLOAD ⚡", url='https://t.me/PrimePornZ')
         ]
     )
-
 
     if 0 < offset <= 10:
         off_set = 0
@@ -1233,9 +1232,9 @@ async def auto_filter(client, msg, spoll=False):
                 ]
                 for file in files
             ]
-    btn.insert(0, 
+    btn.insert(0,
         [
-            InlineKeyboardButton(f' ♀️ How to Download ♀️ ', 'https://t.me/PrimePornZ')
+            InlineKeyboardButton(text="⚡HOW TO DOWNLOAD ⚡", url='https://t.me/PrimePornZ')
         ]
     )
 
